@@ -1,3 +1,4 @@
+from turtle import delay
 from typing import Union
 
 from telegram import Message, MessageId
@@ -43,7 +44,8 @@ try:
     FORWARD_HANDLER = MessageHandler(
         Filters.chat(FROM_CHATS) & ~Filters.status_update & ~Filters.command,
         forward,
-        run_async=True,
+        run_async=False,
+        delay=5,
     )
 
     dispatcher.add_handler(FORWARD_HANDLER)

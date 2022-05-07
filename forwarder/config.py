@@ -29,7 +29,7 @@ class Config(object):
     PORT = 5000  # Port to listen on for webhooks
     CERT_PATH = None  # Path to certificate file
 
-    WORKERS = 4  # Depends on usage, 4 by default
+    WORKERS = 10  # Depends on usage, 4 by default
 
 
 class Production(Config):
