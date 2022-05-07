@@ -12,7 +12,7 @@ if not __name__.endswith("sample_config"):
 # Create a new config.py file in same dir and import, then extend this class.
 class Config(object):
     LOGGER = True
-    REMOVE_TAG = False
+    REMOVE_TAG = True
 
     # REQUIRED
     API_KEY = "617722711:AAHysCHsVcQja6LOlHa88101lKjrxez80-M"  # API key obtained from BotFather
