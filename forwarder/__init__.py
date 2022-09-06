@@ -40,7 +40,7 @@ if ENV:
     WORKERS = int(os.environ.get("WORKERS", 4))
 
 else:
-    from forwarder.config import Development as Config
+    from forwarder.sample_config import Development as Config
 
     API_KEY = Config.API_KEY
     try:
