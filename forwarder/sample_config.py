@@ -20,7 +20,7 @@ class Config(object):
 
     # FOR AUTOMATICALLY FORWARDING MESSAGES
     FROM_CHATS = [-1001515744522, -1001797455659]  # List of chat id's to forward messages from
-    TO_CHATS = [-1001519273319, -1001654497570]  # List of chat id's to forward messages to
+    TO_CHATS = [https://t.me/otakuindonew/64777, -1001654497570]  # List of chat id's to forward messages to
 
     # FOR WEBHOOKS
     WEBHOOK = False
